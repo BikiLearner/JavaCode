@@ -1,0 +1,26 @@
+Java was developed by "James Gosling" in 1995 in Sun Microsystems
+
+There are four edition of java:
+    Standard edition(SE),Enterprise edition(EE),MicroEdition(ME),Java card
+
+What is a class in Java?
+    A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity. It can't be physical.
+
+    A class in Java can contain:
+
+    Fields
+    Methods
+    Constructors
+    Blocks
+    Nested class and interface
+
+    If a function is Inside a class then it is called a methods 
+
+    To use long insert L at the end of number else java thinks it is an Integer long varName=1232324233L;
+    for float do same float varName=12.32F
+
+
+    String is a reference data type (non primititve)
+
+    Array in java may or may not be contineus because of JVM ->as all object are stored in heap and heap is not
+    contineus so we can say array in java are not contiueous 
