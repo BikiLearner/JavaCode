@@ -118,8 +118,8 @@ public class Coding {
 
     // object is a instance of a class that may contain attributes and methods
     private static void learningObject() {
-        FunClass fun = new FunClass(2, 3);
-        System.out.printf("The answer = %d", fun.add());
+//        FunClass fun = new FunClass(2, 3);
+//        System.out.printf("The answer = %d", fun.add());
     }
     // overloaded constructor = method that share the same name but with different
     // parameters

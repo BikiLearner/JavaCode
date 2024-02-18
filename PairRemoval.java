@@ -14,15 +14,15 @@ public class PairRemoval {
 
     }
     public static int minLengthAfterRemovals(List<Integer> nums) {
-        // Map<Integer,Integer> value=new HashMap<Integer,Integer>();
-        // for(int num:nums){
-        //     if(value.containsKey(num)){
-        //         value.put(num, value.get(num)+1);
-        //     }else{
-        //         value.put(num, 1);
-        //     }
-        // }
+         Map<Integer,Integer> value=new HashMap<Integer,Integer>();
+         for(int num:nums){
+             if(value.containsKey(num)){
+                 value.put(num, value.get(num)+1);
+             }else{
+                 value.put(num, 1);
+             }
+         }
 
-        // return value.size();
+         return value.size();
      }
 }

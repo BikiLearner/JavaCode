@@ -1,14 +1,16 @@
+package all_about_java;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class MergeKSortedList {
-    public static void main(Strings[]args){
+    public static void main(String[]args){
         // ListNode[] lists = new ListNode[listsData.length];
     //    ArrayList<List<Integer>> lists = new ArrayList<>();
         // lists.add(Arrays.asList(2, 6));
-        shortTwo(lists.add(Arrays.asList(1, 4, 5)),lists.add(Arrays.asList(1, 3, 4))); 
+//        shortTwo(lists.add(Arrays.asList(1, 4, 5)),lists.add(Arrays.asList(1, 3, 4)));
         // // Create linked lists from the input data
         // for (int i = 0; i < listsData.length; i++) {
         //     lists[i] = createList(listsData[i]);
