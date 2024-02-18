@@ -1,3 +1,5 @@
+package all_about_java;
+
 import java.util.Scanner;
 import java.util.Random;
 import javax.swing.JOptionPane;
