@@ -2,7 +2,15 @@ package NewJavaLearning;
 
 public class JavaLearning {
     public static void main(String[] args) {
-        int num=0b1001;
-        System.out.println(num);
+        int a=234;
+        byte b=(byte) a;
+        int i=0;
+        while(i<=4){
+            System.out.println(i);
+            i++;
+        }
+        int arr[]=new int[45];
+        int r=arr.length;
+        String str;
     }
 }
