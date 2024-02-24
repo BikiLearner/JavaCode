@@ -29,5 +29,43 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
 
     draw backs of array Read form gpt
 
+# what is static keyword making something as a class member not a object member
+    (https://youtu.be/4XTsAAHW_Tc?t=18339)
+    static block is use to initialize static variable
+    syntax: static{other = "Hi Moto"}
+
+    you can use static variable in static method but you can't use non - static variable in
+    static method
+
+    why main needs to be static?
+        Main method is the starting point of the program so if we do not make it static then
+        we have to create the object of the class where main method is present but how can
+        we create object without starting the program so it will be in a deadlock situation
+    GPT explained
+      1) The main method is called by the JVM before any objects of the class are created.
+         Therefore, it must be declared as static to indicate that it belongs to the class
+         itself,not to any specific instance of the class.
+      2)No Object Creation: If the main method were not static,
+        the JVM would require an object of the class containing the main method to call it.
+        However, since main is the entry point, no objects have been created yet.
+        This creates a circular dependency: to run the program, you
+        need to create an object, but to create an object, you need to run the program.
+      3)Deadlock Situation: As you correctly mentioned,
+        if the main method were not static, creating an object to call main would
+        lead to a deadlock situation, as it would require the program to start
+        executing before it could create an object, and vice versa.
+
+
+# Class.forName() it basically load your class if you want to load your class without
+  creating any object it also throws exception name ClassNotBeFoundException
+
+# this is a key word which represent current object (https://youtu.be/4XTsAAHW_Tc?t=20221)
+
+# Every Class in java extend Object class (yes the name of the class is Object) it is by
+    default and u cannot see it but it is there
+    public class hello (invisible) extend Object{
+
+    }
+#
 
 

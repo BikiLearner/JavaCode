@@ -1,7 +1,7 @@
 package NewJavaLearning;
 
-public class JavaLearning {
-    public static void main(String[] args) {
+public class JavaLearning  {
+    public static void main(String[] args) throws ClassNotFoundException {
         int a=234;
         byte b=(byte) a;
         int i=0;
@@ -12,5 +12,8 @@ public class JavaLearning {
         int arr[]=new int[45];
         int r=arr.length;
         String str;
+
+        //good to know
+        Class.forName("NewJavaLearning.Biki");
     }
 }

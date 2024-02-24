@@ -1,0 +1,36 @@
+# encapsulation
+
+Encapsulation in Java refers to the bundling of data and
+methods that operate on the data within a single unit, typically known as a class.
+It's one of the four fundamental Object-Oriented Programming (OOP)
+concepts, along with inheritance, polymorphism, and abstraction. In brief:
+
+# constructor
+
+A constructor in object-oriented programming (OOP) is a special type of method or function
+that is automatically called when an instance (i.e., object) of a class is created.
+Its primary purpose is to initialize the newly created object and set its initial state.
+
+# by default every constructor will have a super() in it
+# this() executes the constructor of the same class
+
+#   In Java, an anonymous object refers to an object that is instantiated without assigning it
+    to a variable. Instead,it is typically used for immediate method invocation or
+    passing as an argument to a method.
+# if the is multiple class extend one after another like a extend b and b extend c c is the
+     super class (Parent class) it is multi-level inheritance
+   but if two class do it , it is single level inheritance a extend b
+
+   Multiple Inheritance in java will not work
+   reason : - ambiguity
+   let take that a and b are two parent classes with function y() in both
+   now c extends a,b and now I want to call objc.y() but as there is not function
+   in c it will look at the parents but both parent has same function he will be confuse
+   to choose which one to take for this reason java dev decided to remove Multiple-Inheritance
+   from java
+# Method overriding :
+    Method overriding in Java occurs when a subclass provides a specific implementation
+    for a method that is already defined in its superclass. This allows a subclass to provide
+    its own implementation of a method defined in its superclass, thereby customizing
+    the behavior of that method for the subclass. Method overriding is a fundamental
+    concept in object-oriented programming and enables polymorphism.
