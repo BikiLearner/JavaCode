@@ -1,15 +1,15 @@
 # encapsulation
 
-Encapsulation in Java refers to the bundling of data and
-methods that operate on the data within a single unit, typically known as a class.
-It's one of the four fundamental Object-Oriented Programming (OOP)
-concepts, along with inheritance, polymorphism, and abstraction. In brief:
+    Encapsulation in Java refers to the bundling of data and
+    methods that operate on the data within a single unit, typically known as a class.
+    It's one of the four fundamental Object-Oriented Programming (OOP)
+    concepts, along with inheritance, polymorphism, and abstraction. In brief:
 
 # constructor
 
-A constructor in object-oriented programming (OOP) is a special type of method or function
-that is automatically called when an instance (i.e., object) of a class is created.
-Its primary purpose is to initialize the newly created object and set its initial state.
+    A constructor in object-oriented programming (OOP) is a special type of method or function
+    that is automatically called when an instance (i.e., object) of a class is created.
+    Its primary purpose is to initialize the newly created object and set its initial state.
 
 # by default every constructor will have a super() in it
 # this() executes the constructor of the same class
@@ -34,3 +34,48 @@ Its primary purpose is to initialize the newly created object and set its initia
     its own implementation of a method defined in its superclass, thereby customizing
     the behavior of that method for the subclass. Method overriding is a fundamental
     concept in object-oriented programming and enables polymorphism.
+
+# polymorphism (poly : many , Morphism : behaviour)
+    there are two type of polymorphism
+        1)compile time
+        2)Run time
+    when can mention type as parent but he object can be of child  ex: A obj = new B() , B extends A ,
+    A is the parent class
+   Dynamic Method dispatch (read from gpt)
+
+# final - variable , method , class if you make ur class final no one can extend it
+    and if you make ur method final no one can override it and for variable it is use to make the variable constant
+
+
+# Object Class:(https://youtu.be/4XTsAAHW_Tc?t=26898)
+
+# upcasting and downCasting (https://youtu.be/4XTsAAHW_Tc?t=27575)
+
+# wrapper class : (https://youtu.be/4XTsAAHW_Tc?t=28034)
+
+# abstract class : you cannot create object of abstract class but u can create instance of abstract class (A obj)
+
+# static can be use only for inner class (https://youtu.be/4XTsAAHW_Tc?t=29243)
+
+# interface (https://youtu.be/4XTsAAHW_Tc?t=29899)
+
+# class - class -> extends
+    class - interface -> implement (we can Implement multiple interfaces in same class)
+    interface - interface -> extends
+
+# enums (https://youtu.be/4XTsAAHW_Tc?t=30924): enum nameOfEnum{  u cannot extends enum in other class
+                                                    constants
+                                                 }
+     in java enum is a class
+
+# annotation we want to give extra information to the compiler
+
+#Different type of interfaces -:
+    1.Normal
+    2.Functional/SAM(Single Abstract Method)
+    3.Marker (it is a blank interface) (https://youtu.be/4XTsAAHW_Tc?t=32732)
+
+
+# functional Interface - a interface which has only one method
+
+# lambda(https://youtu.be/4XTsAAHW_Tc?t=33151): it works only with the functional interface

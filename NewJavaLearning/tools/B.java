@@ -10,4 +10,7 @@ public class B extends A{
         this();// it calls the constructor of the same class
         System.out.println("Hello Biki" + a);
     }
+    public void show(){
+        System.out.println("Hello biki");
+    }
 }
