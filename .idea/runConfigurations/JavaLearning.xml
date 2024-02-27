@@ -4,7 +4,7 @@
     <module name="javanew" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="NewJavaLearning.*" />
+        <option name="PATTERN" value="NewJavaLearning.DSA.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
