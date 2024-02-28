@@ -1,6 +1,6 @@
 package NewJavaLearning.tools;
 
-public class B{
+public sealed class B permits Biki {
     public int count=0;
 //    public B(){
 //        super(4);//this function is getting called , which is constructor of Class A which is

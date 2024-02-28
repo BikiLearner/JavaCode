@@ -14,6 +14,6 @@ public class JavaLearning  {
         String str;
 
         //good to know
-        Class.forName("NewJavaLearning.Biki");
+        Class.forName("NewJavaLearning.tools.Biki");
     }
 }
