@@ -68,4 +68,16 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
     }
 # Thread (https://youtu.be/4XTsAAHW_Tc?t=38051) in every the u need to have a run method
 
+# Thread + Mutation is not an good Idea
+# Thread safe mean only one thread can work with that at one point (Raise condition)
+# To ensure that one thread at a time can access the variable we use synchronise key word in
+    that method or variable
+
+# states available to threads
+    1) new state( when we create a thread)
+    2) runnable state
+    3) Running state
+    4) waiting state
+    5) dead state
+
 
