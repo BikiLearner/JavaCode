@@ -92,5 +92,5 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
     public sealed class B permits Biki
     the classes who extend sealed class (subclass) must be sealed or final or non-sealed
     permits should be last thing after implements and extends
-
-
+# record for dataclass in java sames as kotlin record is a class behind the scene
+    and it cannot extend any other class but u can implement interfaces
