@@ -1,0 +1,17 @@
+JDBC(Java Database Connectivity)
+# there are four types of drivers
+
+# To connect java to database we need 7 steps
+    1) import the package ( java.Sql.*)
+    2) load and register the driver ( load the driver + register the driver)
+            driver for particular database like mysql , oracle etc
+            driver for mysql is "com.mysql.jdbc.driver"
+            forName is a method to load and register we have to pass string driver it
+            belong to class name Class
+    3) establish the connection - to connect we have to instantiate interface-
+        connection
+    4) create the statement
+        statement , prepare statement , callable statement
+    5) execute the query
+    6) process result
+    7) close
