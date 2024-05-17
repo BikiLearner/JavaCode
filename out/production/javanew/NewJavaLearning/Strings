@@ -1,0 +1,12 @@
+Very very Imp link (https://youtu.be/4XTsAAHW_Tc?t=16521)
+
+# Mutable - change , Immutable - unchanged
+# By default string is immutable (cannot be change)
+# there is a special area in heap called "String constant pool"
+# if you want mutable string "String buffer and string builder"
+
+# String Buffer
+    StringBuffer str=new StringBuffer("Hello Biki")
+    str.capacity() (length + extra 16 bit to minimize the need for frequent relocations as
+        string grows)
+# string buffer is thread safe but string builder is not

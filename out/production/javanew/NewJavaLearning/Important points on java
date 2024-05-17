@@ -1,0 +1,89 @@
+Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
+
+# J shell to write java command in command prompt
+#Java is strongly typed language
+
+# 1 byte -> 8 bits
+
+# java follows UNICODE in case of char so it takes 2 bytes
+
+# u can use 0b(your binary number) in between to user binary number ( ex : int num =  0b0001) for hexa or others u can do so 
+    search the internet and also u can put _ in between 00 for extra readability
+
+# when u case from int data type to byte it does modulus operation ( % with maximum value of byte )
+    ex:int r=20; byte b=(int) r;
+    b=r % 256(highest value of byte)
+# type promotion byte a=20; byte b=30; int c=a * b where (a * b) should produce byte but java
+    say not to worry we promote them to int this is known a type promotion
+# if you know the range then use for loop if u had some condition then use while or do while
+
+# object has properties and behaviour
+
+# instance variable is a part of heap not stack and local variable is the part of stack of
+    particular function (Link : https://youtu.be/4XTsAAHW_Tc?t=12980)
+# object is created in heap memory
+# Array in java is an object 
+    jagged array int num[][]=new int[2][];
+        num[0]=new int [3];
+        num[1]=new int [5];
+
+    draw backs of array Read form gpt
+
+# what is static keyword making something as a class member not a object member
+    (https://youtu.be/4XTsAAHW_Tc?t=18339)
+    static block is use to initialize static variable
+    syntax: static{other = "Hi Moto"}
+
+    you can use static variable in static method but you can't use non - static variable in
+    static method
+
+    why main needs to be static?
+        Main method is the starting point of the program so if we do not make it static then
+        we have to create the object of the class where main method is present but how can
+        we create object without starting the program so it will be in a deadlock situation
+    GPT explained
+      1) The main method is called by the JVM before any objects of the class are created.
+         Therefore, it must be declared as static to indicate that it belongs to the class
+         itself,not to any specific instance of the class.
+      2)No Object Creation: If the main method were not static,
+        the JVM would require an object of the class containing the main method to call it.
+        However, since main is the entry point, no objects have been created yet.
+        This creates a circular dependency: to run the program, you
+        need to create an object, but to create an object, you need to run the program.
+      3)Deadlock Situation: As you correctly mentioned,
+        if the main method were not static, creating an object to call main would
+        lead to a deadlock situation, as it would require the program to start
+        executing before it could create an object, and vice versa.
+
+
+# Class.forName() it basically load your class if you want to load your class without
+  creating any object it also throws exception name ClassNotBeFoundException
+
+# this is a key word which represent current object (https://youtu.be/4XTsAAHW_Tc?t=20221)
+
+# Every Class in java extend Object class (yes the name of the class is Object) it is by
+    default and u cannot see it but it is there
+    public class hello (invisible) extend Object{
+
+    }
+# Thread (https://youtu.be/4XTsAAHW_Tc?t=38051) in every the u need to have a run method
+
+# Thread + Mutation is not an good Idea
+# Thread safe mean only one thread can work with that at one point (Raise condition)
+# To ensure that one thread at a time can access the variable we use synchronise key word in
+    that method or variable
+
+# states available to threads
+    1) new state( when we create a thread)
+    2) runnable state
+    3) Running state
+    4) waiting state
+    5) dead state
+
+#   1) Collection Api (Concept)
+    2) collections (Class)
+    3) collection (Interface)
+
+# stream Api
+
+

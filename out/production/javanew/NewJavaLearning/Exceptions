@@ -1,0 +1,16 @@
+# (https://youtu.be/4XTsAAHW_Tc?t=33603)
+(https://youtu.be/4XTsAAHW_Tc?t=35049)
+# different types of error
+    1.Compile time (syntax error)
+    2.Run time it can be called exceptions
+    3.Logical error(in common Bugs)
+
+# Unchecked exception is not compulsory but checked exception is compulsory
+
+# throw is use to throw exception custom
+# throws
+# ducking the exception
+
+# finally will be execute irrespective of the exception
+
+complete 10:23:49
