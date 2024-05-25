@@ -1,7 +1,7 @@
 package NewJavaLearning;
 
 public class JavaLearning  {
-    public static void main(String[] args) throws ClassNotFoundException {
+     static public void main(String[] args) throws ClassNotFoundException {
         int a=234;
         byte b=(byte) a;
         int i=0;

@@ -1,7 +1,5 @@
 Very very Imp link (https://youtu.be/4XTsAAHW_Tc?t=16521)
 
-
-
 # Mutable - change , Immutable - unchanged
 # By default string is immutable (cannot be change)
 # there is a special area in heap called "String constant pool"

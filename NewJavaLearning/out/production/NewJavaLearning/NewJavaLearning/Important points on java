@@ -33,14 +33,6 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
 # Every method will have it own stack
 # stack will have a key and a value
 
-# In Java, the order of the static and public keywords in the main method declaration
-    does not matter. Both public static void main(String[] args) and
-    static public void main(String[] args) are valid and functionally equivalent.
-    This is because Java allows the access modifier (public) and the keyword (static) to appear
-    in any order as long as they are both present before the return type (void).
-    Therefore, writing static public void main(String[] args) will work the same way as public
-    static void main(String[] args).
-
 # Array in java is an object 
     jagged array int num[][]=new int[2][];
         num[0]=new int [3];
@@ -55,9 +47,6 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
 
     you can use static variable in static method but you can't use non - static variable in
     static method
-
-    every time create object there is two step ur call load  & object are instantiate
-    in JVM there is a special space known a class loader
 
     why main needs to be static?
         Main method is the starting point of the program so if we do not make it static then
