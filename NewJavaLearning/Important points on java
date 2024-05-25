@@ -1,7 +1,7 @@
 Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
 
 # J shell to write java command in command prompt
-# Java is strongly typed language
+# Java is strongly typed language (Statically typed language)
 
 # 1 byte -> 8 bits
 
@@ -10,18 +10,27 @@ Link:https://youtu.be/4XTsAAHW_Tc?si=juiKUlGcUeufWR26
 # u can use 0b(your binary number) in between to user binary number ( ex : int num =  0b0001) for hexa or others u can do so 
     search the internet and also u can put _ in between 00 for extra readability
 
-# when u case from int data type to byte it does modulus operation ( % with maximum value of byte )
+# explicit conversion is known a casting and Implicit conversion is known a Conversion
+
+# when u caste from int data type to byte it does modulus operation ( % with maximum value of byte )
     ex:int r=20; byte b=(int) r;
     b=r % 256(highest value of byte)
 # type promotion byte a=20; byte b=30; int c=a * b where (a * b) should produce byte but java
     say not to worry we promote them to int this is known a type promotion
 # if you know the range then use for loop if u had some condition then use while or do while
 
-# object has properties and behaviour
+# && , || - short circuit
+
+# object has properties and behaviours
+
+# JVM where the byte code execute
+# JRE are the external file need to run the code
+# JVM is a part of JRE
 
 # instance variable is a part of heap not stack and local variable is the part of stack of
     particular function (Link : https://youtu.be/4XTsAAHW_Tc?t=12980)
 # object is created in heap memory
+
 # Array in java is an object 
     jagged array int num[][]=new int[2][];
         num[0]=new int [3];

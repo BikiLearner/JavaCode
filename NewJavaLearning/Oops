@@ -35,6 +35,9 @@
     the behavior of that method for the subclass. Method overriding is a fundamental
     concept in object-oriented programming and enables polymorphism.
 
+# Method Overloading :
+    Method with same name but different parameters and return type
+
 # polymorphism (poly : many , Morphism : behaviour)
     there are two type of polymorphism
         1)compile time
