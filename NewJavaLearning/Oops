@@ -3,7 +3,13 @@
     Encapsulation in Java refers to the bundling of data and
     methods that operate on the data within a single unit, typically known as a class.
     It's one of the four fundamental Object-Oriented Programming (OOP)
+
+    Key Points of Encapsulation: Data Hiding , Controlled Access , Improves Maintainability
+        and Flexibility , Modularity
+
     concepts, along with inheritance, polymorphism, and abstraction. In brief:
+
+# this is a key word which represent current object
 
 # constructor
 
