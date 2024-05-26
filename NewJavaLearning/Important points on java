@@ -7,6 +7,18 @@ JAVA Interview question(https://www.geeksforgeeks.org/java-interview-questions/)
 
 # 1 byte -> 8 bits
 
+# JIT (https://youtu.be/d7KHAVaX_Rs?si=X-3l98bLQqSCipAT)
+    JIT stands for (Just-in-Time) compiler is a part of JRE(Java Runtime Environment),
+    it is used for better performance of the Java applications during run-time.
+    The use of JIT is mentioned in step by step process mentioned below:
+
+    1.Source code is compiled with javac compiler to form bytecode
+    2.Bytecode is further passed on to JVM
+    3.JIT is a part of JVM, JIT is responsible for compiling bytecode into native machine code at run time.
+    4.The JIT compiler is enabled throughout, while it gets activated when a method is invoked.
+         For a compiled method, the JVM directly calls the compiled code, instead of interpreting it.
+    5.As JVM calls the compiled code that increases the performance and speed of the execution.
+
 # java follows UNICODE in case of char so it takes 2 bytes
 
 # u can use 0b(your binary number) in between to user binary number ( ex : int num =  0b0001) for hexa or others u can do so 

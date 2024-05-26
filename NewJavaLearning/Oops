@@ -18,7 +18,8 @@
     Its primary purpose is to initialize the newly created object and set its initial state.
 
 # by default every constructor will have a super() in it
-# this() executes the constructor of the same class
+    super() calls the constructor of super class
+# this() will executes the constructor of the same class
 
 #   In Java, an anonymous object refers to an object that is instantiated without assigning it
     to a variable. Instead,it is typically used for immediate method invocation or
@@ -48,12 +49,13 @@
     there are two type of polymorphism
         1)compile time
         2)Run time
-    when can mention type as parent but he object can be of child  ex: A obj = new B() , B extends A ,
+    we can mention type as parent but the object can be of child  ex: A obj = new B() , B extends A ,
     A is the parent class
    Dynamic Method dispatch (read from gpt)
 
 # final - variable , method , class if you make ur class final no one can extend it
-    and if you make ur method final no one can override it and for variable it is use to make the variable constant
+    and if you make ur method final no one can override it and for variable
+    it is use to make the variable constant
 
 
 # Object Class:(https://youtu.be/4XTsAAHW_Tc?t=26898)
