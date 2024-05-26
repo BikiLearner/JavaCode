@@ -1,5 +1,7 @@
 package NewJavaLearning;
 
+import NewJavaLearning.tools.*;
+
 public class JavaLearning  {
      static public void main(String[] args) throws ClassNotFoundException {
         int a=234;
@@ -12,6 +14,8 @@ public class JavaLearning  {
         int arr[]=new int[45];
         int r=arr.length;
         String str;
+
+
 
         //good to know
         Class.forName("NewJavaLearning.tools.Biki");

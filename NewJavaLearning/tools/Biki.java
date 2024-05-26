@@ -7,6 +7,16 @@ public final class Biki extends B {
 //        System.out.println("Yes the class is loaded wow");
 //    }
     public static void main(String [] args) throws InterruptedException {
+
+
+        Car car=new Car() {
+            @Override
+            public void drive() {
+
+            }
+        };
+
+
 //        B b=new B();
 //        Runnable r1=()->{
 //          for(int p=0;p<10;p++){

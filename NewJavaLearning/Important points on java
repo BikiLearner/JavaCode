@@ -35,6 +35,14 @@ JAVA Interview question(https://www.geeksforgeeks.org/java-interview-questions/)
 
 # && , || - short circuit
 
+# Major Elements in OOP - classes and object , Polymorphism , Encapsulation , Inheritance
+# Minor Elements in OOP - Interface , Abstract Classes , annotation , packages
+
+# ClassLoader - Is the part of JRE that dynamically load classes in JVM
+     The Java run time system does not need to know about files and
+     file systems because of classloaders.
+     Types : BootStrap ClassLoader , Extension ClassLoader , System ClassLoader
+
 # object has properties and behaviours
 
 # JVM where the byte code execute
