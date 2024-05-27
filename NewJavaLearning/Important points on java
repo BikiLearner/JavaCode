@@ -138,3 +138,6 @@ JAVA Interview question(https://www.geeksforgeeks.org/java-interview-questions/)
     permits should be last thing after implements and extends
 # record for dataclass in java sames as kotlin record is a class behind the scene
     and it cannot extend any other class but u can implement interfaces
+
+# What is the purpose of using BufferedInputStream and BufferedOutputStream classes?
+    BufferedInputStream and outputStream Improves the input / output performance of file or stream
