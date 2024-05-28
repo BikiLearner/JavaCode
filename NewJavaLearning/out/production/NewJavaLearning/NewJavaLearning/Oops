@@ -3,7 +3,13 @@
     Encapsulation in Java refers to the bundling of data and
     methods that operate on the data within a single unit, typically known as a class.
     It's one of the four fundamental Object-Oriented Programming (OOP)
+
+    Key Points of Encapsulation: Data Hiding , Controlled Access , Improves Maintainability
+        and Flexibility , Modularity
+
     concepts, along with inheritance, polymorphism, and abstraction. In brief:
+
+# this is a key word which represent current object
 
 # constructor
 
@@ -12,7 +18,8 @@
     Its primary purpose is to initialize the newly created object and set its initial state.
 
 # by default every constructor will have a super() in it
-# this() executes the constructor of the same class
+    super() calls the constructor of super class
+# this() will executes the constructor of the same class
 
 #   In Java, an anonymous object refers to an object that is instantiated without assigning it
     to a variable. Instead,it is typically used for immediate method invocation or
@@ -42,12 +49,13 @@
     there are two type of polymorphism
         1)compile time
         2)Run time
-    when can mention type as parent but he object can be of child  ex: A obj = new B() , B extends A ,
+    we can mention type as parent but the object can be of child  ex: A obj = new B() , B extends A ,
     A is the parent class
    Dynamic Method dispatch (read from gpt)
 
 # final - variable , method , class if you make ur class final no one can extend it
-    and if you make ur method final no one can override it and for variable it is use to make the variable constant
+    and if you make ur method final no one can override it and for variable
+    it is use to make the variable constant
 
 
 # Object Class:(https://youtu.be/4XTsAAHW_Tc?t=26898)
@@ -55,6 +63,12 @@
 # upcasting and downCasting (https://youtu.be/4XTsAAHW_Tc?t=27575)
 
 # wrapper class : (https://youtu.be/4XTsAAHW_Tc?t=28034)
+    Wrapper, in general, is referred to a larger entity that encapsulates a smaller entity. Here in Java,
+    the wrapper class is an object class that encapsulates the primitive data types.
+    Why do we need wrapper classes?
+        Wrapper classes are final and immutable
+        Provides methods like valueOf(), parseInt(), etc.
+        It provides the feature of autoboxing and unboxing.
 
 # abstract class : you cannot create object of abstract class but u can create instance of abstract class (A obj)
 
