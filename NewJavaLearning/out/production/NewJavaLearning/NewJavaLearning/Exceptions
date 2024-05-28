@@ -1,5 +1,6 @@
 # (https://youtu.be/4XTsAAHW_Tc?t=33603)
 (https://youtu.be/4XTsAAHW_Tc?t=35049)
+#(https://www.javatpoint.com/exception-handling-in-java)
 # different types of error
     1.Compile time (syntax error)
     2.Run time it can be called exceptions
@@ -7,10 +8,18 @@
 
 # Unchecked exception is not compulsory but checked exception is compulsory
 
-# throw is use to throw exception custom
-# throws
+# throw is use to throw custom exception and then catch block will catch it
+    can call the catch block using throw keyword
+
+# throws throws is a keyword in Java that is used in the signature of a method
+    to indicate that this method might throw one of the listed type exceptions.
+    The caller to these methods has to handle the exception using a try-catch block.
+
+# e.printStackTrace prints the stack of the method show the calling
 # ducking the exception
 
 # finally will be execute irrespective of the exception
 
-complete 10:23:49
+# Runtime exception is unchecked(Not compulsory to handle) exception
+    SQL exception and IOException etc is called checked (Compulsory handling needed)
+       exception

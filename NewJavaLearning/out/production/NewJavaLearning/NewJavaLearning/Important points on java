@@ -141,3 +141,9 @@ JAVA Interview question(https://www.geeksforgeeks.org/java-interview-questions/)
 
 # What is the purpose of using BufferedInputStream and BufferedOutputStream classes?
     BufferedInputStream and outputStream Improves the input / output performance of file or stream
+
+
+# println() method belongs to PrintStream class
+# out is the object of PrintStream which is present in System class
+# in is object of InputStream which is present in System class
+# System.in.read() give a  ASCII value
