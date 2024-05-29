@@ -143,7 +143,13 @@ JAVA Interview question(https://www.geeksforgeeks.org/java-interview-questions/)
     BufferedInputStream and outputStream Improves the input / output performance of file or stream
 
 
+# Priority in thread 1 for least and 10 for max
+# Thread safe mean one thread can work at one time
+# synchronized keyword help in race condition
+
 # println() method belongs to PrintStream class
 # out is the object of PrintStream which is present in System class
 # in is object of InputStream which is present in System class
-# System.in.read() give a  ASCII value
+# System.in.read() give a  ASCII value and it read one input
+
+
