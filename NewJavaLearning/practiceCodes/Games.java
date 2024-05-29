@@ -1,4 +1,4 @@
-package NewJavaLearning;
+package NewJavaLearning.practiceCodes;
 
 public enum Games {
     GTA5(10000),RedDeadRedumption(2000),CallOfDuty(2123);

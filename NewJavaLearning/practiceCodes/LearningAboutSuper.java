@@ -1,6 +1,4 @@
-package NewJavaLearning;
-
-import NewJavaLearning.tools.B;
+package NewJavaLearning.practiceCodes;
 
 import java.util.Arrays;
 

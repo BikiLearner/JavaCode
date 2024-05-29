@@ -1,4 +1,4 @@
-package NewJavaLearning;
+package NewJavaLearning.practiceCodes;
 
 public class NewWayToRun {
     void main() {

@@ -1,6 +1,4 @@
-package NewJavaLearning;
-
-import NewJavaLearning.tools.*;
+package NewJavaLearning.practiceCodes;
 
 import java.io.IOException;
 
